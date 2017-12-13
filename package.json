@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "'qq地图服务'",
   "main": "index.js",
-  "repository": "'https://'",
+  "repository": "https://github.com/pollbox/lbsqq.git",
   "author": "pollbox <zhnh0591@163.com>",
   "license": "MIT",
   "dependencies": {
