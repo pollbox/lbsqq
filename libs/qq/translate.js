@@ -22,7 +22,7 @@ var
   @param locations {string} locations=39.12,116.83;30.21,115.43 支持批量转换，
   */
 translate=function translate(key,locations,type){
-  var url="https://apis.map.qq.com/ws/place/v1/translate/";
+  var url="http://apis.map.qq.com/ws/coord/v1/translate";
   type=type||3;
   url+="?"+querystring.stringify({locations:locations,type:type,key:key});
   return makeRequest(url).then(result=>{

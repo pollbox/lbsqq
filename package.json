@@ -2,7 +2,7 @@
   "name": "lbsqq",
   "version": "1.0.0",
   "description": "'qq地图服务'",
-  "main": "lib/qq/index.js",
+  "main": "index.js",
   "repository": "'https://'",
   "author": "pollbox <zhnh0591@163.com>",
   "license": "MIT",

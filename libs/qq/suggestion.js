@@ -18,8 +18,10 @@ var
     url+="?"+querystring.stringify({region:region,keyword:keyword,key:key});
     return makeRequest(url).then(result=>{
       // console.log(result);
-      return result.data
-    })
+      return result.data;
+    }).catch(result=>{
+      return [];
+    });
   };
 
 module.exports=suggestion;

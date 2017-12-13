@@ -14,11 +14,12 @@ var
 
   */
 address=function address(key,address){
-  var url="https://apis.map.qq.com/ws/place/v1/address/";
-  type=type||3;
+  var url="https://apis.map.qq.com/ws/geocoder/v1/";
   url+="?"+querystring.stringify({address:address,key:key});
   return makeRequest(url).then(result=>{
     // console.log(result);
-    return result.result
-  })
+    return result.result;
+  });
 };
+
+module.exports=address;
